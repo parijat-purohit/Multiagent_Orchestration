@@ -1,0 +1,12 @@
+cat <<EOT >> .gitignore
+# Python cache
+*.pyc
+__pycache__/
+**/__pycache__/
+
+# ChromaDB & ADK internal folders
+.env
+chroma_data/
+.adk/
+**/.adk/
+EOT

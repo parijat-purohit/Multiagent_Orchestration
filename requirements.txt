@@ -1,0 +1,7 @@
+google-adk
+pandas
+openpyxl
+requests
+pypdf
+chromadb
+chromadb-admin
